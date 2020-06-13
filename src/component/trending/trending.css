@@ -1,0 +1,67 @@
+div.trendingHeader {
+    margin-bottom: 30px;
+}
+
+div.trendingHeader h1 {
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+div.trendingCTO {
+    position: relative;
+    margin: 20px 0;
+    width: 100%
+}
+
+div.trendingCTO img {
+    width: 100%;
+}
+
+div.trendingCTO h4 {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+div.trendingRow {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0;
+}
+
+div.imgPlaceholder {
+    position: relative;
+}
+
+div.imgPlaceholder img {
+    width: 100%;
+}
+
+div.trendingBody {
+    margin: 10px;
+}
+
+@media(min-width:1024px) {
+    div.trendingCTO {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    div.trendingCTO img {
+        width: 800px;
+        height: 700px;
+    }
+    div.trendingRow {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div.trendingCol {
+        flex-basis: 45%;
+    }
+
+    div.trendingCol img {
+        height: 250px;
+    }
+}

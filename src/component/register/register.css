@@ -1,0 +1,107 @@
+div.regContainer {
+    padding: 40px 0;
+    padding-top: 10px;
+}
+div.form {
+    background-color: black;
+    width: 100vw;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.801);
+}
+div.form form {
+    margin: 20px 20px;
+}
+div.form p, div.form h2 {
+    text-align: center;
+}
+div.form p {
+    font-size: 12px;
+}
+div.form form div {
+    margin: 6px 0;
+    position: relative;
+}
+div.form form div.zipCode {
+    width: 30%;
+}
+div.form form div select {
+    margin-top: 10px;
+    background-color: #333333;
+    width: 100%;
+    padding: 8px 9px;
+    border: 1px solid #222222;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 16px;
+}
+div.form form div label {
+    color: rgba(189, 176, 176, 0.637);
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 4;
+    background-color: black;
+    font-size: 17px;
+}
+div.form form div input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 17px;
+    padding: 13px 10px;
+    color: rgba(255, 255, 255, 0.698);
+    border-color: rgba(255, 255, 255, 0.445);
+}
+div.form form div input:focus {
+    border-color: white;
+}
+div.password a{
+    position: absolute;
+    right: 5px;
+    bottom: 14px;
+    z-index: 100;
+    background-color: black;
+    font-size: 16px;
+}
+div.form div.submit button {
+    margin-left: 120px;
+    margin-top: 20px;
+    opacity: 0.4;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+@media(min-width:1024px){
+    div.form {
+       width: 80vw;
+       margin-top: 120px;
+       padding: 10px 0;
+    }
+    div.form form div {
+        margin: 40px 90px;
+    }
+    div.form div.submit button{
+        margin-left: 260px;
+    }
+}
+@media(min-width:1100px){
+    div.form {
+         width: 50vw;
+       margin-left: 160px;
+       margin-top: 0;
+    }
+    div.form form div {
+        margin: 10px 90px;
+    }
+    div.form div.submit button{
+        margin-left: 150px;
+    }
+}
+@media(min-width:1300px){
+    div.form {
+       /* margin-left: 160px; */
+       margin-top: 0;
+    }
+    div.form form div {
+        margin: 10px 90px;
+    }
+}

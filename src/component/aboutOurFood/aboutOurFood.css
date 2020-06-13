@@ -1,0 +1,74 @@
+div.aofHeader{
+    
+}
+div.aofHeader h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+div.aofHeader hr {
+    margin-top: 0;
+}
+div.aofHeaderImg {
+    position: relative;
+    margin: 30px 0;
+}
+div.aofHeaderImg img {
+    width: 100%;
+    height: 350px;
+}
+div.aofCTO{
+    margin: 30px 10px;
+}
+div.aofCTO h2 {
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+div.aofRow {
+    display: flex;
+    flex-direction: column;
+}
+div.aofColumn {
+    padding: 10px;
+}
+div.aofCard{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+}
+div.aofCard img {
+    height: 400px;
+    width: 97vw
+}
+div.aofCard h2, div.aofCard p, div.aofCard button {
+    margin-left: 10px
+}
+div.aofCard h2 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+div.aofCard button {
+    padding: 20px 30px;
+    background-color: #FFB001;
+    border: none;
+    font-size: 16px;
+    border-radius: .3em;
+}
+
+@media(min-width:1024px){
+    div.aofRow {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.aofColumn{
+        width: 45%;
+        overflow: hidden;
+    }
+    div.aofColumn img {
+        height: 300px;
+        width: 400px;
+    }
+}

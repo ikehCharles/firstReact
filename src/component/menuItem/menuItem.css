@@ -1,0 +1,90 @@
+ul.item{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 58px;
+    position: relative;
+}
+ul.item li {
+    position: relative;
+    padding: 3px 15px;
+    margin-bottom: 1px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+p.itemType{
+    margin-bottom: 4px;
+}
+p.itemPrice{
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+p.quantity{
+    position: absolute;
+    right: 10px;
+    bottom: 45px;
+}
+p.quantity a {
+    background-color: white;
+    color: black;
+    margin: 0 10px;
+    padding: 0 10px;
+    font-size: 22px;
+}
+ul.item button {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    z-index: 2;
+    border-radius: .3em;
+    padding: 4px 10px;
+    border: black;
+    background-color: #888888;
+    font-size: 16px;
+}
+
+
+span.box {
+    border: 1px solid #ffffff;
+    /* background-color: #ffffff; */
+    margin: 0 10px;
+    width: 10px !important;
+    height: 10px;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+span.ats{
+    margin: 0 11px;
+    width: 10px !important;
+    height: 10px;
+    transform: rotate(45deg);
+    display: inline-block;
+    border: none;
+    background-color: white
+    
+}
+div.placeholder{
+    position: absolute;
+    bottom: 10px;
+}
+div.itemRating {
+    z-index: 3;
+    position: absolute;
+    bottom: 11.5px;
+    left: 15px;
+}
+
+@media(min-width: 1024px){
+    ul.item li {
+        background-color: transparent;
+        color: black;
+        border-bottom: 1px solid black;
+    }
+    span.box {
+        border: 1px solid #000000;
+    }
+    span.ats{
+        background-color: rgb(0, 0, 0)   
+    }
+}

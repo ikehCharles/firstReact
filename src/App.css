@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.774)
+}
+a {
+  color: rgba(255, 255, 255, 0.753);
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  outline: none;
+}
+input,button {
+  outline: none;
+}
+div.container-wrapper{
+  padding-top: 100px;
+}
+
+button{
+  cursor: pointer;
+}
+hr {
+  width: 20%;
+}
+@media(min-width: 1024px){
+  div {
+    font-size: 16px !important;
+  }
+  div.container-wrapper{
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 100px;
+  }
+  hr {
+    width: 10%;
+  }
+}

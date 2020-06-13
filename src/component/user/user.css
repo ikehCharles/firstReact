@@ -1,0 +1,17 @@
+div.userDetails {
+    margin: 150px 10px;
+    font-size: 17px;
+}
+div.userDetails div {
+    margin: 20px 0;
+    text-align: center;
+}
+div.userDetails div.logOut button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: .2em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 3px 10px;
+}

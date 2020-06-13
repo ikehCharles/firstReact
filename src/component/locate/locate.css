@@ -1,0 +1,36 @@
+.mapouter{
+    position:relative;
+    text-align:right;
+    overflow: hidden;
+    width: 100%;
+}
+.gmap_canvas {
+    background:none!important;
+    position: relative;
+    width: 100%;
+}
+.gmap_canvas iframe {
+    width: 100%;
+}
+div.searchLocation {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+div.searchLocation input {
+    border: 1px solid #111111;
+    background-color: transparent;
+    padding: 6px 10px;
+    font-size: 17px;
+}
+div.searchLocation button {
+    padding: 7px 20px;
+    border: none;
+    background-color: black;
+    border-top-right-radius: .3em;
+    border-bottom-right-radius: .3em;
+    color: white !important;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 3px;
+}

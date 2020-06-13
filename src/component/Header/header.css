@@ -1,0 +1,217 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100 !important;
+    margin: 0;
+    transition: .8s all;
+}
+header.addBg {
+    background-color: rgba(255, 255, 255, 0.904);
+}
+div.navbarHeader {
+    margin: 18px 12px;
+    font-style: italic;
+    font-size: 34px;
+    letter-spacing: 4px;
+    color: black;
+}
+div.cartButton {
+    position: relative;
+}
+div.cartButton span {
+    position: absolute;
+    right: 17px;
+    top: 8px;
+    font-size: 18px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.849);
+    height: 20px;
+    font-weight: 1000;
+    /* border: 1px solid #111111; */
+    border-radius: 100%;
+}
+div.mobileMenu {
+    background-color: black;
+    width: 50px;
+    padding: 12px;
+    padding-right: 18px;
+    border-bottom-right-radius: 95%;
+}
+div.mobileMenu div {
+    transition: .3s all;
+    border-radius: .3em;
+    width: 40px;
+    height: 4px;
+    margin: 8px 0;
+    margin-right: 15px;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+div.mobileMenu .line1 {
+    width: 25px;
+    margin-left: 20px;
+}
+div.mobileMenu .line3 {
+    width: 25px;
+}
+div.show>.line1 {
+    transform: rotate(45deg) translate(-2px, 16px);
+    width: 40px !important;
+}
+div.show>.line2 {
+    opacity: 0;
+
+}
+div.show>.line3 {
+    transform: rotate(-45deg) translate(12px, -8px);
+    width: 40px !important;
+}
+nav {
+    z-index: 5;
+}
+nav.navbarMenu {
+    position: fixed;
+    top: 70px;
+    z-index: 9;
+    margin: 0;
+    transition: .5s all;
+    width: 100vw;
+    text-transform: capitalize  
+}
+nav.navbarMenu ul {
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+nav.navbarMenu ul li {
+    padding: 30px 20px;
+}
+nav.navbarMenu ul li a {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+div.login {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    position: fixed;
+    top: 130px;
+    background-color: black;
+    padding: 20px;
+    z-index: 6;
+    width: 100vw;
+    color: white;
+    letter-spacing: 2px;
+    transition: .5s all;
+}
+div.login h3 {
+    margin-left: 20px;
+}
+div.login form {
+    margin-right: 50px;
+    padding: 0 20px;
+}
+div.login form div {
+    margin: 15px 0;
+    position: relative;
+}
+div.login form div label {
+    color: rgba(255, 255, 255, 0.739);
+    position: absolute;
+    top: 14px;
+    left: 5px;
+    z-index: 10;
+    background-color: black;
+    font-size: 17px;
+}
+div.login form div input {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px 8px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 1px solid #444444;
+    background-color: transparent;
+    outline: none;
+    color: rgba(255, 255, 255, 0.849);
+    border-radius: .3em;
+}
+div.submit {
+    width: 100%;
+    margin-bottom: 0;
+}
+div.submit button {
+    margin-left: 100px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.863);
+    color: black;
+    padding: 5px 12px;
+    border: 1px solid white;
+    border-radius: .3em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+div.userQuery {
+    margin-top: 0;
+}
+div.userQuery p, div.userQuery h5 {
+    margin-top: 0;
+}
+div.err {
+    color: rgb(233, 84, 84);
+    text-align: center;
+}
+
+
+@media(min-width: 1024px){
+    div.mobileMenu{
+        border-radius: 0;
+        background-color: transparent;
+    }
+    div.mobileMenu div {
+        background-color: black;
+    }
+    nav.navbarMenu {
+        padding-left: 120px;
+        width: 100vw;
+        background-color: rgba(255, 255, 255, 0.938);
+    }
+    nav.navbarMenu ul li {
+        padding: 32px 20px;
+    }
+    div.login {
+        width: 60vw;
+        right: 0;
+        top: 150px;
+    }
+    div.login form div {
+        margin: 40px 0px;
+    }
+}
+@media(min-width: 1100px){
+    nav.navbarMenu ul li {
+        padding: 52px 20px;
+    }
+    div.login {
+        width: 40vw;
+        top: 80px;
+    }
+    div.login form div {
+        margin: 15px 0;
+    }
+    div.submit button {
+        margin-left: 170px;
+    }
+}
+@media(min-width: 1300px){
+    nav.navbarMenu ul li {
+        padding: 70px 20px;
+    }
+}

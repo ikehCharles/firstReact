@@ -1,0 +1,57 @@
+div.mcCafe {
+    font-size: 17px;
+}
+div.mcHeader h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 34px;
+}
+div.mcHeaderDetail {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+div.mcHeaderDetail img {
+    position: relative;
+    left: 55px;
+    height: 500px;
+}
+div.mcHeaderDetail p {
+    padding: 10px;
+    margin: 50px 0;
+}
+div.mcRow{
+    display: flex;
+    flex-direction: column;
+}
+div.mcColumn {
+    padding-bottom: 30px;
+}
+div.mcContent {
+    position: relative;
+    padding: 10px;
+}
+div.mcContent img {
+    width: 100%;
+}
+div.mcContent button,div.mcContent p,div.mcContent h2{
+    margin-left: 10px;
+}
+div.mcContent button {
+    padding: 20px 30px;
+    background-color: #FFB001;
+    border: none;
+    font-size: 16px;
+    border-radius: .3em;
+}
+
+@media(min-width:1024px){
+    div.mcRow{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.mcColumn{
+        flex-basis: 40%;
+    }
+}
