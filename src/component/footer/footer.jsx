@@ -22,7 +22,6 @@ class footer extends Component {
                 searchInput: { transform: "translateY(200%)" }
             })
         }
-        document.getElementById('searchItem').focus()
     }
     showUser = (e) => {
         e.preventDefault()

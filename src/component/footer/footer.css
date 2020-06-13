@@ -25,7 +25,7 @@ div.searchInput {
     bottom: 0px;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.911);
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     justify-content: center;
 }
 div.searchInput input {
@@ -81,7 +81,7 @@ div.footerPane div {
     margin: 3px;
 }
 div.copyright{
-    margin-top: 40px;
+    margin: 40px 0;
 }
 div.footerSocial ul {
     margin: 0;
