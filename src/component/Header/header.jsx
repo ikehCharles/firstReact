@@ -155,7 +155,7 @@ class header extends Component {
                         <div className="line2"></div>
                         <div className="line3"></div>
                     </div>
-                    <div className="navbarHeader"><Link style={{color:'black',fontSize:'25px' }} to="/">Elpapi</Link><h2></h2></div>
+                    <div className="navbarHeader"><Link style={{color:'black',fontSize:'25px' }} to="/firstReact">Elpapi</Link><h2></h2></div>
         <div className='cartButton' onClick={this.isUserLogged}><span>{this.props.count}</span><i style={{ fontSize: "28px", margin: "20px 22px", color: 'black' }} className="fas fa-shopping-cart"></i></div>
                 </header>
                 <nav style={this.state.showNav} className="navbarMenu">
