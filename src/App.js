@@ -56,7 +56,7 @@ class App extends Component {
      <React.Fragment>
      <Header count={this.state.count} />
       <div className='container-wrapper'>
-      <Route exact path="/" render={props=>(<Home />)} />
+      <Route exact path="/firstReact" render={props=>(<Home />)} />
       <Route path="/menu"  render={(props)=><Menu  meal={this.meal} />} />
       <Route path="/register" component={Register} />
       <Route path="/cart" component={ShoppingCart} />
